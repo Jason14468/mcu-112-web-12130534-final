@@ -1,0 +1,31 @@
+:host {
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+nav > a {
+  color: #5cb85c;
+  font-size: 1.5rem;
+  font-family: titillium web, sans-serif;
+  margin-left: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 80px;
+}
+
+nav > ul li {
+  margin-left: 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.3);
+}
