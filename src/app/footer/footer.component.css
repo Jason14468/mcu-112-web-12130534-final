@@ -1,0 +1,27 @@
+footer {
+  background-color: #f3f3f3;
+  color: #bbb;
+  text-align: center;
+  padding: 10px 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+footer .conduit {
+  color: #5cb85c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer .Thinkster {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+footer .conduit:hover,
+footer .Thinkster:hover {
+  text-decoration: underline;
+  color: #3d8e3d;
+}
