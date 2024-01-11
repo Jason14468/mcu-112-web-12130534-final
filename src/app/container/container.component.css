@@ -13,13 +13,13 @@
   outline: solid 1px red;
 }
 
-div.articles {
+.articles-list {
   padding-left: 15px;
   padding-right: 15px;
   flex: 0 0 75%;
 }
 
-tag-list {
+.tag-list {
   padding-left: 15px;
   padding-right: 15px;
   flex: 0 0 25%;
