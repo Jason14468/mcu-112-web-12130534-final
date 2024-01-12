@@ -1,6 +1,7 @@
 :host {
   display: block;
   margin-top: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 .container {
@@ -8,6 +9,8 @@
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
+  width: 1140px;
+  border-radius: 0;
 }
 .container > div {
   outline: solid 1px red;

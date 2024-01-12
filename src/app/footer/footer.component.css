@@ -1,21 +1,19 @@
 footer {
+  display: block;
   background-color: #f3f3f3;
   color: #bbb;
-  text-align: left;
-  padding: 10px 5px;
-  padding-left: 30px;
-  position: absolute;
+  text-align: center;
+  padding: 8px;
+  font-size: 0.8rem;
   bottom: 0;
   width: 100%;
-  font-size: 0.8rem;
 }
 
 footer .conduit {
   color: #5cb85c;
   font-weight: bold;
   text-decoration: none;
-  text-align: left;
-  font-size: large;
+  font-size: 1rem;
 }
 
 footer .Thinkster {
