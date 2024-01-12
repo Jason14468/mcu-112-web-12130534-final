@@ -10,13 +10,12 @@
   padding-right: 15px;
   display: flex;
   width: 1140px;
-  border-radius: 0;
 }
 .container > div {
   outline: solid 1px red;
 }
 
-.articles-list {
+.article-list {
   padding-left: 15px;
   padding-right: 15px;
   flex: 0 0 75%;
