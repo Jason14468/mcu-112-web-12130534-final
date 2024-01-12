@@ -1,12 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-article-foem-page',
+  selector: 'app-article-form-page',
   standalone: true,
-  imports: [],
-  templateUrl: './article-foem-page.component.html',
-  styleUrl: './article-foem-page.component.css'
+  imports: [CommonModule],
+  templateUrl: './article-form-page.component.html',
+  styleUrl: './article-form-page.component.css',
 })
-export class ArticleFoemPageComponent {
-
-}
+export class ArticleFormPageComponent {}

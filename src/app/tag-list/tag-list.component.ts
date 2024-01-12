@@ -10,10 +10,7 @@ import { NgFor } from '@angular/common';
   styleUrl: './tag-list.component.css',
 })
 export class TagListComponent {
-  @HostBinding('class')
-  class = 'tag-list';
-  @Input()
-  tags!: string[];
-  @Input()
-  className!: string;
+  @HostBinding('class') class = 'tag-list';
+
+  tag = ['enim', 'repellat', 'est', 'eos'];
 }

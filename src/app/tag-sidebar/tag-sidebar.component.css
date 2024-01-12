@@ -1,0 +1,17 @@
+:host{
+  display: block;
+  padding: 5px 10px 10px;
+  background: #f3f3f3;
+  border-radius: 4px;
+
+}
+
+p{
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+}
+.tag-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+2 changes: 2 additions & 0 deletions2

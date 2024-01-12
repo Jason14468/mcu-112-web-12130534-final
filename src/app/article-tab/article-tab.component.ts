@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+@@ -0,0 +1,12 @@
+import { Component,HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-article-tab',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './article-tab.component.css'
 })
 export class ArticleTabComponent {
-
+  @HostBinding('class') class='article-tab';
 }
