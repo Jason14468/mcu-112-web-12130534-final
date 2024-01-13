@@ -1,6 +1,7 @@
 div.form {
-  margin: 700px;
-  width: flex;
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
   flex-direction: column;
   gap: 10px;
 }
@@ -12,21 +13,27 @@ textarea {
   font-size: 1rem;
   line-height: 1.25;
   color: #55595c;
-  border: 1px solid rgb(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
-.for-input-lg {
-  padding: 0.75rem 1.5rem;
+
+.form-input-log {
+  padding: 1.75rem 1.5rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
+
 div.button {
+  text-align: right;
+}
+
+div.button > button {
   text-align: right;
 }
 div.button > button {
   padding: 0.75rem 1.5rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
-  color: aliceblue;
+  border-radius: 0.3;
+  color: white;
   background: #5cb85c;
   border: 1px solid #5cb85c;
   font-weight: 400;
