@@ -1,16 +1,13 @@
 :host {
   display: block;
-  margin-top: 1.5em;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
-
 .article-tab {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   width: 1140px;
 }
-
 .container {
   margin: 0 auto;
   padding-left: 15px;
@@ -21,13 +18,11 @@
 .container > div {
   outline: solid 1px red;
 }
-
-.article-list {
+.article-preview {
   padding-left: 15px;
   padding-right: 15px;
   flex: 0 0 75%;
 }
-
 .tag-sidebar {
   padding-left: 15px;
   padding-right: 15px;
