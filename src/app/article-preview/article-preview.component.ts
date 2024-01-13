@@ -1,14 +1,11 @@
-import { DatePipe, NgFor } from '@angular/common';
 import { Component, HostBinding } from '@angular/core';
-import { TagComponent } from '../tag/tag.component';
-import { TagListComponent } from '../tag-list/tag-list.component';
-import { FavoriteButtonComponent } from '../favorite-button/favorite-button.component';
 import { Article } from '../model/article';
+import { ArticleComponent } from '../article/article.component';
 
 @Component({
   selector: 'app-article-preview',
   standalone: true,
-  imports: [TagListComponent, FavoriteButtonComponent, DatePipe],
+  imports: [ArticleComponent],
   templateUrl: './article-preview.component.html',
   styleUrl: './article-preview.component.css',
 })
@@ -29,7 +26,8 @@ export class ArticlePreviewComponent {
 
     author: 'zncen',
 
-    createDate: new Date(2024, 6, 4),
+    createDate: new Date(2024, 1, 11),
 
     tags: ['enim', 'repellat', 'est', 'eos'],
   });
+}
